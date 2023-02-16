@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: yellowgreen;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  margin-bottom: 1rem;
+}
+
+nav {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0 2em;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card-info {
+  width: 350px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
